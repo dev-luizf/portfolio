@@ -11,7 +11,6 @@ export default function AboutMe() {
     } 
     
     if(imagePath < 10 && event.keyCode === 39) {
-      console.log(imagePath)
       setImagePath(imagePath + 1);
     }
   }
